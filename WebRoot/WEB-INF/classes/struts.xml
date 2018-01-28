@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package name="default" extends="struts-default" namespace="/">
+		<action name="choose" class="com.hy.action.ChooseAction">
+			<result name="bing1">/bing1.jsp</result>
+			<result name="bing2">/bing2.jsp</result>
+			<result name="bing3">/bing3.jsp</result>
+			<result name="bing4">/bing4.jsp</result>
+			<result name="bing5">/bing5.jsp</result>
+			<result name="bing6">/bing6.jsp</result>
+			<result name="bing7">/bing7.jsp</result>
+			<result name="bing8">/bing8.jsp</result>
+			<result name="bing9">/bing9.jsp</result>
+		</action>
+	</package>
+
+</struts>    
